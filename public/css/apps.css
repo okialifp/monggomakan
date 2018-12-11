@@ -1,0 +1,18 @@
+#footer{
+    height:50px;
+    line-height:50px;
+    background:#333;
+    color:#fff;
+ 
+    position:absolute;
+    bottom:0px;
+}
+
+html,body{
+    height:100%;
+}
+
+#container{
+    min-height:100%;
+    position:relative;
+}

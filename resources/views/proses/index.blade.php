@@ -35,7 +35,7 @@
                  <td style="text-align: center;">{{ $data->jumlah }}</td>
                  <td style="text-align: center; width: 200px;" >
                    <a href="{{ route('proses.edit', $data->id) }}" class="btn btn-warning"><i class="fa fa-edit"></i></a>
-                   <a href="{{ route('proses.delete', $data->id) }}" onclick="return confrim('ingin hapus yakin?')" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                   <a href="{{ route('proses.delete', $data->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                  </td>
                          
                </tr>
